@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: white;
+
+}
+
+.bandButton {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:rgb(211, 120, 67) ;
+}
+.bandButton:hover{
+    background-color: rgb(150, 41, 33) ;
+    color: white;
+}
+
+.otherButton {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:rgb(67, 211, 211) ;   
+}
+.otherButton:hover{
+    background-color: rgb(54, 97, 177);
+    color: white;
+}
+
+
+.classicButton {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:rgb(67, 211, 103) ;
+
+}
+.classicButton:hover{
+    background-color: rgb(48, 143, 72) ;
+    color: white;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgb(196, 187, 187);
+    width: 50%;
+    height: 14px;
+    border-radius: 8px;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #6aa8df;
+    cursor: e-resize;
+  }
+
+
+.oneTrack {
+    border: 2px solid #000000;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 15px;
+    max-width: 97%;
+
+}
+
+.buttonStyle {
+    margin: 5px;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: grab;
+}
+
+.sampleStyle {
+    background-color: #cb3fd862; /* #85049162 */
+    margin: 5px;
+    border-radius: 5px;
+    padding: 8px;
+    max-width: 92%;
+}
+
